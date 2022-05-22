@@ -1,0 +1,51 @@
+* {
+    padding: 5;
+    margin: 5; 
+}
+
+.lillecontainer {
+    grid-area: skema;
+    padding: 1em;
+    background-color: beige;
+    /*padding-left: 400px; */
+  }
+
+  .five {
+      grid-area: skema;
+      text-align: center;
+      padding: 3em;
+      background-color: beige;
+  }
+  
+h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.questions {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.button {
+    background-color: black;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 4px 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: burlywood;
+    color: cornsilk;
+    transition: 1s;
+}
+
+.need-validation {
+    border: 6px #02273a;
+}
