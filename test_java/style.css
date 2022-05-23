@@ -1,0 +1,57 @@
+* {
+    padding: 5;
+    margin: 5; 
+}
+
+.lillecontainer {
+    grid-area: skema;
+    padding: 1em;
+    background-color: rgb(245, 239, 220);
+    /*padding-left: 400px; */
+  }
+
+  .overskrift {
+      grid-area: skema;
+      text-align: center;
+      padding: 3em;
+      background-color: rgb(245, 239, 220);
+  }
+  
+h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.questions {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.button {
+    background-color: rgba(0, 0, 0, 0.769);
+    font-size: 15px;
+    color: #ffffff;
+    padding: 4px 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: burlywood;
+    color: cornsilk;
+    transition: 1s;
+}
+
+.need-validation {
+    border: 6px #02273a;
+}
+
+
+
+
+
+
